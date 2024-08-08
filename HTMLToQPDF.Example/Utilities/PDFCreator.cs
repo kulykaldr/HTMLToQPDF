@@ -19,14 +19,7 @@ namespace HTMLToQPDF.Example.Utilities
                     page.MarginHorizontal(0.5f, Unit.Centimetre);
                     page.MarginVertical(1f, Unit.Centimetre);
 
-                    page.DefaultTextStyle(TextStyle.Default.FontFamily("Arial").FontSize(8).Fallback(y => y.FontFamily("Segoe UI Emoji")));
-
-                  /* page.DefaultTextStyle(TextStyle.Default
-                    //    .Fallback(y => y.FontFamily("MS Reference Sans Serif")
-                        .Fallback(y => y.FontFamily("Segoe UI Emoji")
-                      //  .Fallback(y => y.FontFamily("Microsoft YaHei")))
-                    ));
-                  */
+                    page.DefaultTextStyle(TextStyle.Default.FontFamily("MS Reference Sans Serif", "Segoe UI Emoji", "Microsoft YaHei"));
 
                     page.Content().Column(col =>
                     {

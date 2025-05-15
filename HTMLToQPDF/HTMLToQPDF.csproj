@@ -1,22 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Title>Veris.QuestPDF.HTML</Title>
-    <Company></Company>
-    <Authors>Veris</Authors>
-    <Description>Veris.QuestPDF.HTML is an extension for QuestPDF that allows to generate PDF from HTML</Description>
-    <PackageProjectUrl>https://github.com/verisglobal/HTMLToQPDF</PackageProjectUrl>
+    <Title>kulykaldr.QuestPDF.HTML</Title>
+    <Company>kulykaldr</Company>
+    <Authors>kulykaldr</Authors>
+    <Description>kulykaldr.QuestPDF.HTML is an extension for QuestPDF that allows to generate PDF from HTML</Description>
+    <PackageProjectUrl>https://github.com/kulykaldr/HTMLToQPDF</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/verisglobal/HTMLToQPDF</RepositoryUrl>
+    <RepositoryUrl>https://github.com/kulykaldr/HTMLToQPDF</RepositoryUrl>
     <PackageTags>pdf, file, export, generate, generation, tool, create, creation, render, document, format, quest, html, library, converter, open, source, free, standard, core</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>2.0.7</Version>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageId>Veris.$(AssemblyName)</PackageId>
+    <Version>2.0.8</Version>
+    <PackageId>kulykaldr.HTMLToQPDF</PackageId>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -27,8 +26,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="HtmlAgilityPack" Version="1.12.0" />
-    <PackageReference Include="QuestPDF" Version="2025.1.6" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.12.1" />
+    <PackageReference Include="QuestPDF" Version="2025.4.4" />
   </ItemGroup>
 
   <ItemGroup>
